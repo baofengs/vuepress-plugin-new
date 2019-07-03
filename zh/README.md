@@ -4,10 +4,10 @@
 
 ## Features
 
-- Auto create post markdown file in current directory
-- Auto inject basic frontmatter config in post file
-- Create post by default, use options `-d/--draft` to create a draft
-- Auto fix file conflict
+- 在当前目录下创建文章的 markdown 文件
+- 在文件中自动插入基本 frontmatter 配置
+- 支持创建草稿
+- 自动处理重名文件
 
 ## Install
 
@@ -17,7 +17,7 @@ npm i vuepress-plugin-new
 
 ## Usage
 
-### Using this plugin:
+### 使用扩展:
 
 ```js
 // .vuepress/config.js
@@ -31,31 +31,31 @@ module.exports = {
 }
 ```
 
-### Then run:
+### 运行:
 
-New post named *hello vuepress*
+新建一个名为 *hello vuepress* 的文章
 
 ```bash
 vuepress new . 'hello vuepress'
 ```
 
-New draft named *hello vuepress latter*
+新建一个名为 *hello vuepress latter* 的草稿
 
 ```bash
 vuepress new . 'hello vuepress latter' -d/--draft
 ```
 
-## Options
+## 选项
 
 base
 
 - Type: string
 - Default: '.'
 
-Provide the base path in the blog directory
+指定文章所在的目录
 
 
-## Development
+## 开发
 
 ```bash
 git clone https://github.com/x-bao/vuepress-plugin-new
@@ -63,7 +63,7 @@ cd vuepress-plugin-new
 yarn
 ```
 
-## Contributing
+## 贡献
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
