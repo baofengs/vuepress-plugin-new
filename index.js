@@ -86,8 +86,8 @@ class PostFile {
 
     done() {
         process.stdout.write("\n")
-        logger.info(`done ${join(this.base, this.file)}.md\n`);
-        logger.info(`preview ${join(this.base, this.file)}.html\n`);
+        logger.info(`done\t ${join(this.base, this.file)}.md`);
+        logger.info(`preview\t /${join(this.base, this.file)}.html\n`);
     }
 
     _exists(file) {
