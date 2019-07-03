@@ -2,6 +2,8 @@
 
 > This plugin requires VuePress >= **1.0.0**.
 
+[中文说明](./zh/readme.md)
+
 ## Features
 
 - Auto create post markdown file in current directory
