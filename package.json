@@ -12,8 +12,9 @@
         "index.js"
     ],
     "scripts": {
-        "start": "vuepress new .",
-        "release": "release-it"
+        "example": "vuepress new ./example foo",
+        "release": "release-it",
+        "test": "jest"
     },
     "repository": {
         "url": "x-bao/vuepress-plugin-new",
@@ -26,8 +27,12 @@
         "fs-extra": "^8.1.0"
     },
     "devDependencies": {
+        "jest": "^24.8.0",
         "release-it": "^12.3.0",
         "vuepress": "^1.0.0"
+    },
+    "jest": {
+        "testEnvironment": "node"
     },
     "peerDependencies": {
         "vuepress": ">=1.0.0"
