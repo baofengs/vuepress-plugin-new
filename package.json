@@ -1,7 +1,7 @@
 {
     "name": "vuepress-plugin-new",
     "version": "0.1.1",
-    "description": "A terminal tool to create blog posts in vuepress",
+    "description": "A vuepress command-line tool to create markdown file just like `hexo new 'hello world'`",
     "main": "index.js",
     "keywords": [
         "vuepress",

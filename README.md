@@ -2,6 +2,8 @@
 
 > This plugin requires VuePress >= **1.0.0**.
 
+A vuepress command-line tool to create markdown file just like `hexo new 'hello world'`
+
 [中文说明](./zh/README.md)
 
 ## Features
