@@ -2,7 +2,7 @@
 
 > This plugin requires VuePress >= **1.0.0**.
 
-[中文说明](./zh/readme.md)
+[中文说明](./zh/README.md)
 
 ## Features
 
