@@ -1,8 +1,13 @@
 {
     "name": "vuepress-plugin-new",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "A terminal tool to create blog posts in vuepress",
     "main": "index.js",
+    "keywords": [
+        "vuepress",
+        "vuepress-plugin",
+        "command-line"
+    ],
     "files": [
         "index.js"
     ],
@@ -17,9 +22,11 @@
     "author": "sanbaofeng <sanbaofeng@baijiahulian.com>",
     "license": "MIT",
     "dependencies": {
+        "@vuepress/shared-utils": "^1.0.2",
         "fs-extra": "^8.1.0"
     },
     "devDependencies": {
+        "release-it": "^12.3.0",
         "vuepress": "^1.0.0"
     },
     "peerDependencies": {
