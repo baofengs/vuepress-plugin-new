@@ -2,6 +2,8 @@
 
 > This plugin requires VuePress >= **1.0.0**.
 
+Vuepress 的命令行扩展工具，用以快速的创建文章，就像 `hexo new 'hello world'`
+
 ## Features
 
 - 在当前目录下创建文章的 markdown 文件
