@@ -1,6 +1,6 @@
 {
     "name": "vuepress-plugin-new",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A vuepress command-line plugin to create markdown file just like `hexo new 'hello world'`",
     "main": "index.js",
     "keywords": [
