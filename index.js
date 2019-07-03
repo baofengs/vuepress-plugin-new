@@ -1,7 +1,7 @@
-const { join } = require('path');
 const { fs, logger, chalk } = require('@vuepress/shared-utils');
-const { red } = chalk;
+const { join } = require('path');
 const fse = require('fs-extra');
+const { red } = chalk;
 
 module.exports = (opts = {}, ctx) => ({
     name: 'vuepress-plugin-new',

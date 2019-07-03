@@ -12,7 +12,7 @@
         "index.js"
     ],
     "scripts": {
-        "example": "vuepress new ./example foo",
+        "example": "vuepress new ./example",
         "release": "release-it",
         "test": "jest"
     },
@@ -23,8 +23,7 @@
     "author": "sanbaofeng <sanbaofeng@baijiahulian.com>",
     "license": "MIT",
     "dependencies": {
-        "@vuepress/shared-utils": "^1.0.2",
-        "fs-extra": "^8.1.0"
+        "@vuepress/shared-utils": "^1.0.2"
     },
     "devDependencies": {
         "jest": "^24.8.0",
